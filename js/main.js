@@ -230,8 +230,8 @@ function ShowResult(){
 
     result = Q.getResult();
     
-    $('#result>div>p>span').eq(0).eq(0).text(result.totals);
-    $('#result>div>p>span').eq(0).eq(1).text(result.correct).addClass('text-Danger');
+    $('#q_t').text(result.totals);
+    $('#q_c').text(result.correct).addClass('text-Danger');
 
     $('#rankimg').attr('src', `./image/ranking/ClassIconL_${result.ranking}.png`);
     
