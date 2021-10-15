@@ -235,7 +235,7 @@ function ShowResult(){
 
     $('#rankimg').attr('src', `./image/ranking/ClassIconL_${result.ranking}.png`);
     
-    $('a.twitter.sp-btn').attr('href', `https://twitter.com/intent/tweet?text=ダイアローグ楽曲検定！%0a全${result.totals}問中${result.correct}問正解！%0a&hashtags=ダイアローグ,ダイアローグ楽曲檢定&url=https://cpk0521.github.io/CUE-Quiz/%0a`)
+    $('a.twitter.sp-btn').attr('href', `https://twitter.com/intent/tweet?text=ダイアローグ楽曲検定！%0a全${result.totals}問中${result.correct}問正解！%0a&hashtags=ダイアローグ,ダイアローグ楽曲檢定&url=https://cpk0521.github.io/D_Quiz/%0a`)
 }
 
 
