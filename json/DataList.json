@@ -1,0 +1,412 @@
+{
+    "discolist": [
+        {
+            "id": 0,
+            "title": "/",
+            "name": "/",
+            "cover": [
+                {
+                    "file": "np_cd.png"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Debut single",
+            "name": "はじめてのかくめい！",
+            "cover": [
+                {
+                    "file": "hajimeteno-kakumei_jk_gentei.jpg"
+                },
+                {
+                    "file": "hajimeteno-kakumei_jk.jpg"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Mini Album",
+            "name": "DREAMY-LOGUE",
+            "cover": [
+                {
+                    "file": "02_dreamy-logue_jk_shokai.jpg"
+                },
+                {
+                    "file": "02_dreamy-logue_jk.jpg"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "きゃにめ&配信限定シングル",
+            "name": "あたりまえだから",
+            "cover": [
+                {
+                    "file": "03_atarimaedakara_jk.jpg"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Digital Single",
+            "name": "夏の花火と君と青",
+            "cover": [
+                {
+                    "file": "07_natsuno-hanabi_jk.jpg"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "2nd Single",
+            "name": "人生イージー？",
+            "cover": [
+                {
+                    "file": "05_jinsei-easy_jk_syokai.jpg"
+                },
+                {
+                    "file": "05_jinsei-easy_jk.jpg"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "3rd Single",
+            "name": "あやふわアスタリスク",
+            "cover": [
+                {
+                    "file": "06_ayafuwa_jk_syokai.jpg"
+                },
+                {
+                    "file": "06_ayafuwa_jk.jpg"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "4th Single",
+            "name": "おもいでしりとり",
+            "cover": [
+                {
+                    "file": "08_omoide-shiritori_jk_syokai.jpg"
+                },
+                {
+                    "file": "08_omoide-shiritori_jk.jpg"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "1st Album",
+            "name": "DIALOGUE＋1",
+            "cover": [
+                {
+                    "file": "dialogue+1_jk_normal.jpg"
+                },
+                {
+                    "file": "dialogue+1_jk_shokai.jpg"
+                },
+                {
+                    "file": "dialogue+1_jk_canime.jpg"
+                }
+            ]
+        }
+    ],
+    "Songs": [
+        {
+            "id": 1,
+            "name": "はじめてのかくめい！",
+            "discos": [
+                {
+                    "disco": 1
+                }
+            ],
+            "audio": "lcQiuaHbswg.mp3",
+            "must": [
+                {
+                    "id": 25
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "ダイアローグ＋インビテーション！",
+            "discos": [
+                {
+                    "disco": 1
+                }
+            ],
+            "audio": "hkJMM_FXmlM.mp3",
+            "must": []
+        },
+        {
+            "id": 3,
+            "name": "大冒険をよろしく",
+            "discos": [
+                {
+                    "disco": 2
+                }
+            ],
+            "audio": "LAyZudsnN0k.mp3",
+            "must": []
+        },
+        {
+            "id": 4,
+            "name": "好きだよ、好き。",
+            "discos": [
+                {
+                    "disco": 2
+                }
+            ],
+            "audio": "J4ZW1q7ASLo.mp3",
+            "must": []
+        },
+        {
+            "id": 5,
+            "name": "トーク！トーク！トーク！",
+            "discos": [
+                {
+                    "disco": 2
+                }
+            ],
+            "audio": "97ykdCh9e6E.mp3",
+            "must": []
+        },
+        {
+            "id": 6,
+            "name": "Domestic Force!!",
+            "discos": [
+                {
+                    "disco": 2
+                }
+            ],
+            "audio": "gj1a8NzTtkM.mp3",
+            "must": []
+        },
+        {
+            "id": 7,
+            "name": "パジャマdeパーティー",
+            "discos": [
+                {
+                    "disco": 2
+                }
+            ],
+            "audio": "O53gRU1kAwI.mp3",
+            "must": []
+        },
+        {
+            "id": 8,
+            "name": "ぼくらは素敵だ",
+            "discos": [
+                {
+                    "disco": 2
+                }
+            ],
+            "audio": "RuLHw5yQcaM.mp3",
+            "must": []
+        },
+        {
+            "id": 9,
+            "name": "あたりまえだから",
+            "discos": [
+                {
+                    "disco": 3
+                }
+            ],
+            "audio": "e3cFgLkNeX8.mp3",
+            "must": []
+        },
+        {
+            "id": 10,
+            "name": "夏の花火と君と青",
+            "discos": [
+                {
+                    "disco": 4
+                },
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "6xGC9Wj1tgQ.mp3",
+            "must": []
+        },
+        {
+            "id": 11,
+            "name": "人生イージー？",
+            "discos": [
+                {
+                    "disco": 5
+                },
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "ytFe0hVqI.mp3",
+            "must": []
+        },
+        {
+            "id": 12,
+            "name": "走れ",
+            "discos": [
+                {
+                    "disco": 5
+                }
+            ],
+            "audio": "tYb7VFG6MIg.mp3",
+            "must": []
+        },
+        {
+            "id": 13,
+            "name": "あやふわアスタリスク",
+            "discos": [
+                {
+                    "disco": 6
+                },
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "bgljf35jvUA.mp3",
+            "must": []
+        },
+        {
+            "id": 14,
+            "name": "花咲く僕らのアンサーを",
+            "discos": [
+                {
+                    "disco": 6
+                }
+            ],
+            "audio": "1M-Qwx3glSY.mp3",
+            "must": []
+        },
+        {
+            "id": 15,
+            "name": "おもいでしりとり",
+            "discos": [
+                {
+                    "disco": 7
+                },
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "1gQ2UbQ11kA.mp3",
+            "must": []
+        },
+        {
+            "id": 16,
+            "name": "シュガーロケット",
+            "discos": [
+                {
+                    "disco": 7
+                }
+            ],
+            "audio": "BT7jyDUP6EQ.mp3",
+            "must": []
+        },
+        {
+            "id": 17,
+            "name": "Sincere Grace",
+            "discos": [
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "vdZPZGnbX2Q.mp3",
+            "must": []
+        },
+        {
+            "id": 18,
+            "name": "ドラマティックピース!!",
+            "discos": [
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "wlfIsU82fFk.mp3",
+            "must": []
+        },
+        {
+            "id": 19,
+            "name": "謎解きはキスのあとで",
+            "discos": [
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "BVIVTzPKNF8.mp3",
+            "must": []
+        },
+        {
+            "id": 20,
+            "name": "プライベイト",
+            "discos": [
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "fMGxBbLwY0M.mp3",
+            "must": []
+        },
+        {
+            "id": 21,
+            "name": "I my me mind",
+            "discos": [
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "howMD2iAXyw.mp3",
+            "must": []
+        },
+        {
+            "id": 22,
+            "name": "アイガッテ♡ランテ",
+            "discos": [
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "6EPdwJIgQ.mp3",
+            "must": []
+        },
+        {
+            "id": 23,
+            "name": "20xxMUEの光",
+            "discos": [
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "L23gOJFMnK8.mp3",
+            "must": []
+        },
+        {
+            "id": 24,
+            "name": "透明できれい",
+            "discos": [
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "G4IeL2zq-jk.mp3",
+            "must": []
+        },
+        {
+            "id": 25,
+            "name": "はじめてのかくめい！2021",
+            "discos": [
+                {
+                    "disco": 8
+                }
+            ],
+            "audio": "bEsSAAcKQBA.mp3",
+            "must": [
+                {
+                    "id": 1
+                }
+            ]
+        }
+    ]
+}
