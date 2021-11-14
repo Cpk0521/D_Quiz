@@ -11,7 +11,9 @@ discolist = [
     [5, '2nd Single', '人生イージー？', ['05_jinsei-easy_jk_syokai.jpg', '05_jinsei-easy_jk.jpg']],
     [6, '3rd Single', 'あやふわアスタリスク', ['06_ayafuwa_jk_syokai.jpg', '06_ayafuwa_jk.jpg']],
     [7, '4th Single', 'おもいでしりとり', ['08_omoide-shiritori_jk_syokai.jpg', '08_omoide-shiritori_jk.jpg']],
-    [8, '1st Album', 'DIALOGUE＋1', ['dialogue+1_jk_normal.jpg', 'dialogue+1_jk_shokai.jpg', 'dialogue+1_jk_canime.jpg']]
+    [8, '1st Album', 'DIALOGUE＋1', ['dialogue+1_jk_normal.jpg', 'dialogue+1_jk_shokai.jpg', 'dialogue+1_jk_canime.jpg']],
+    [9, 'きゃにめ＆配信限定クリスマスシングル', 'はっちゃけダイアローグ＋クリスマス！', ['xmas_jk.jpg']]
+
 ]
 
 #   id | name | disco | audio | Must
@@ -41,6 +43,7 @@ audiolist = [
     [23, '20xxMUEの光', [8], 'L23gOJFMnK8.mp3', []],
     [24, '透明できれい', [8], 'G4IeL2zq-jk.mp3', []],
     [25, 'はじめてのかくめい！2021', [8], 'bEsSAAcKQBA.mp3', [1]],
+    [26, 'はっちゃけダイアローグ＋クリスマス！', [9], 'qhAcGWsJEgw.mp3', []],
 ]
 
 jsondata = {'discolist':[], 'Songs':[]}

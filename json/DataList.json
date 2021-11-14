@@ -110,6 +110,16 @@
                     "file": "dialogue+1_jk_canime.jpg"
                 }
             ]
+        },
+        {
+            "id": 9,
+            "title": "きゃにめ＆配信限定クリスマスシングル",
+            "name": "はっちゃけダイアローグ＋クリスマス！",
+            "cover": [
+                {
+                    "file": "xmas_jk.jpg"
+                }
+            ]
         }
     ],
     "Songs": [
@@ -407,6 +417,17 @@
                     "id": 1
                 }
             ]
+        },
+        {
+            "id": 26,
+            "name": "はっちゃけダイアローグ＋クリスマス！",
+            "discos": [
+                {
+                    "disco": 9
+                }
+            ],
+            "audio": "qhAcGWsJEgw.mp3",
+            "must": []
         }
     ]
 }
