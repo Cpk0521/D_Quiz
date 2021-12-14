@@ -25,7 +25,7 @@ class Quiz {
 
         songlist.forEach(element => {
             
-            if(element.must.length > 0){
+            if(element.link.length > 0){
                 special.push(element);
             }else{
                 let question = {};
@@ -38,9 +38,14 @@ class Quiz {
                 question.answers.push(element.name);
 
                 while (question.answers.length < 4) {
-                    let randomsong = songlist[Math.floor(Math.random() * songlist.length)].name;
-                    if ($.inArray(randomsong, question.answers) == -1) {
-                        question.answers.push(randomsong);
+                    let randomsong;
+
+                    do{
+                        randomsong = songlist[Math.floor(Math.random() * songlist.length)];
+                    }while(randomsong.optshow == 'false');
+
+                    if ($.inArray(randomsong.name, question.answers) == -1) {
+                        question.answers.push(randomsong.name);
                     }
                 }
 
@@ -68,11 +73,11 @@ class Quiz {
 
             let del_list = [];
 
-            if(rand_special.must.length > 4){
+            if(rand_special.link.length > 4){
 
                 while (question.answers.length < 4) {
-                    let rand_must_id = Math.floor(Math.random() * rand_special.must.length);
-                    let rand_song_id = rand_special.must[rand_must_id].id;
+                    let rand_link_id = Math.floor(Math.random() * rand_special.link.length);
+                    let rand_song_id = rand_special.link[rand_link_id].id;
                     let randomsong = songlist[rand_song_id-1].name;
 
                     if ($.inArray(randomsong, question.answers) == -1) {
@@ -80,17 +85,21 @@ class Quiz {
                     }
                 }
     
-            }else if(rand_special.must.length <= 4){
+            }else if(rand_special.link.length <= 4){
 
-                rand_special.must.forEach(e =>{
+                rand_special.link.forEach(e =>{
                     let song = songlist[e.id-1].name;
                     question.answers.push(song);
                 })
 
                 while (question.answers.length < 4) {
-                    let randomsong = songlist[Math.floor(Math.random() * songlist.length)].name;
-                    if ($.inArray(randomsong, question.answers) == -1) {
-                        question.answers.push(randomsong);
+                    let randomsong;
+                    do{
+                        randomsong = songlist[Math.floor(Math.random() * songlist.length)];
+                    }while(randomsong.optshow == 'false');
+
+                    if ($.inArray(randomsong.name, question.answers) == -1) {
+                        question.answers.push(randomsong.name);
                     }
                 }
             }
@@ -101,8 +110,7 @@ class Quiz {
 
             special.splice(rand_id, 1);
 
-            del_list = rand_special.must;
-            console.log(del_list);
+            del_list = rand_special.link;
 
             for (let i = 0; i < special.length; i++) {
                 for (let ii = 0; ii < del_list.length; ii++) {
