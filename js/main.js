@@ -53,64 +53,6 @@ class Quiz {
 
         this.questionlog.sort(() => Math.random() - 0.5);
 
-        // do {
-
-        //     let rand_id = Math.floor(Math.random() * special.length)
-        //     let rand_special = special[rand_id];
-        //     let question = {};
-
-        //     question.correct = rand_special.name;
-        //     question.audio = rand_special.audio;
-        //     question.disco = rand_special.discos;
-
-        //     question.answers = [];
-        //     question.answers.push(rand_special.name);
-
-        //     let del_list = [];
-
-        //     if(rand_special.must.length > 4){
-        //         while (question.answers.length < 4) {
-        //             let rand_must_id = Math.floor(Math.random() * rand_special.must.length);
-        //             let rand_song_id = rand_special.must[rand_must_id];       
-        //             let randomsong = songlist[rand_song_id-1].name;
-        //             if ($.inArray(randomsong, question.answers) == -1) {
-        //                 question.answers.push(randomsong);
-        //                 del_list.push(rand_song_id);
-        //             }
-        //         }
-        //     }else if(rand_special.must.length <= 4){
-        //         rand_special.must.forEach(e =>{
-        //             let song = songlist[e.id-1].name;
-        //             question.answers.push(song);
-        //             del_list.push(e.id);
-        //         })
-
-        //         while (question.answers.length < 4) {
-        //             let randomsong = songlist[Math.floor(Math.random() * songlist.length)].name;
-        //             if ($.inArray(randomsong, question.answers) == -1) {
-        //                 question.answers.push(randomsong);
-        //             }
-        //         }
-        //     }
-
-        //     question.answers.sort(() => Math.random() - 0.5);
-            
-        //     this.questionlog.push(question);
-
-        //     special.splice(rand_id, 1);
-
-        //     for (let i = 0; i < special.length; i++) {
-        //         for (let ii = 0; ii < del_list.length; ii++) {
-
-        //             if(special[i].id == del_list[ii]){
-        //                 special.splice(i, 1);
-        //             }
-        //         }
-        //     }
-            
-
-        // } while (special.length > 0) 
-
         do {
 
             let rand_id = Math.floor(Math.random() * special.length)
@@ -130,10 +72,11 @@ class Quiz {
 
                 while (question.answers.length < 4) {
                     let rand_must_id = Math.floor(Math.random() * rand_special.must.length);
-                    let rand_song_id = rand_special.must[rand_must_id];
-                    let randomsongname = songlist[rand_song_id-1].name;
-                    if ($.inArray(randomsongname, question.answers) == -1) {
-                        question.answers.push(randomsongname);
+                    let rand_song_id = rand_special.must[rand_must_id].id;
+                    let randomsong = songlist[rand_song_id-1].name;
+
+                    if ($.inArray(randomsong, question.answers) == -1) {
+                        question.answers.push(randomsong);
                     }
                 }
     
@@ -152,26 +95,25 @@ class Quiz {
                 }
             }
 
-            del_list = rand_special.must;
-
             question.answers.sort(() => Math.random() - 0.5);
             
             this.questionlog.push(question);
 
             special.splice(rand_id, 1);
 
+            del_list = rand_special.must;
+            console.log(del_list);
+
             for (let i = 0; i < special.length; i++) {
                 for (let ii = 0; ii < del_list.length; ii++) {
 
-                    if(special[i].id == del_list[ii]){
+                    if(special[i].id == del_list[ii].id){
                         special.splice(i, 1);
                     }
                 }
             }
-            
 
         } while (special.length > 0) 
-
 
     }
 
@@ -247,7 +189,7 @@ function loadquestion(){
             // audio_player._sprite.randomclip = [0, 1700];
 
             let offset = Math.floor(Math.random() * (audio_player._duration - 10));
-            audio_player._sprite.randomclip = [offset*1000, 15000];
+            audio_player._sprite.randomclip = [offset*1000, 20000];
 
             audio_player.play('randomclip');
             $('#soundbtn').removeClass('lock');
