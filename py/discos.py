@@ -12,8 +12,8 @@ discolist = [
     [6, '3rd Single', 'あやふわアスタリスク', ['06_ayafuwa_jk_syokai.jpg', '06_ayafuwa_jk.jpg']],
     [7, '4th Single', 'おもいでしりとり', ['08_omoide-shiritori_jk_syokai.jpg', '08_omoide-shiritori_jk.jpg']],
     [8, '1st Album', 'DIALOGUE＋1', ['dialogue+1_jk_normal.jpg', 'dialogue+1_jk_shokai.jpg', 'dialogue+1_jk_canime.jpg']],
-    [9, 'きゃにめ＆配信限定クリスマスシングル', 'はっちゃけダイアローグ＋クリスマス！', ['xmas_jk.jpg']]
-
+    [9, 'きゃにめ＆配信限定クリスマスシングル', 'はっちゃけダイアローグ＋クリスマス！', ['xmas_jk.jpg']],
+    [10, '5th Single', '僕らが愚かだなんて誰が言った', ['np_cd.png']]
 ]
 
 #   id | name | disco | audio | link | optionshow
@@ -54,6 +54,7 @@ audiolist = [
     [34, 'はっちゃけダイアローグ＋クリスマス！（宮原颯希ver.）', [9], 't0nsWs_5HmE.mp3', [26, 29, 30, 31, 32, 33, 35, 36], 'false'],
     [35, 'はっちゃけダイアローグ＋クリスマス！（飯塚麻結ver.）', [9], 'vf79hgyAP2g.mp3', [26, 29, 30, 31, 32, 33, 34, 36], 'false'],
     [36, 'はっちゃけダイアローグ＋クリスマス！（村上まなつver.）', [9], '8HAqIJFbiwg.mp3', [26, 29, 30, 31, 32, 33, 34, 35], 'false'],
+    [37, '僕らが愚かだなんて誰が言った', [10], 'qiyKzOqpzO8.mp3', [], 'true'],
 ]
 
 jsondata = {'discolist':[], 'Songs':[]}

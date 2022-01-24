@@ -120,6 +120,16 @@
                     "file": "xmas_jk.jpg"
                 }
             ]
+        },
+        {
+            "id": 10,
+            "title": "5th Single",
+            "name": "僕らが愚かだなんて誰が言った",
+            "cover": [
+                {
+                    "file": "np_cd.png"
+                }
+            ]
         }
     ],
     "Songs": [
@@ -799,6 +809,18 @@
                 }
             ],
             "optshow": "false"
+        },
+        {
+            "id": 37,
+            "name": "僕らが愚かだなんて誰が言った",
+            "discos": [
+                {
+                    "disco": 10
+                }
+            ],
+            "audio": "qiyKzOqpzO8.mp3",
+            "link": [],
+            "optshow": "true"
         }
     ]
 }
