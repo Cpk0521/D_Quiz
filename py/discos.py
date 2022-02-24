@@ -13,7 +13,8 @@ discolist = [
     [7, '4th Single', 'おもいでしりとり', ['08_omoide-shiritori_jk_syokai.jpg', '08_omoide-shiritori_jk.jpg']],
     [8, '1st Album', 'DIALOGUE＋1', ['dialogue+1_jk_normal.jpg', 'dialogue+1_jk_shokai.jpg', 'dialogue+1_jk_canime.jpg']],
     [9, 'きゃにめ＆配信限定クリスマスシングル', 'はっちゃけダイアローグ＋クリスマス！', ['xmas_jk.jpg']],
-    [10, '5th Single', '僕らが愚かだなんて誰が言った', ['np_cd.png']]
+    [10, '5th Single', '僕らが愚かだなんて誰が言った', ['12_bokuraga_jk_shokai.jpg','12_bokuraga_jk_normal.jpg']],
+    [11, '6th Single', '恋は世界定理と共に', ['np_cd.png']],
 ]
 
 #   id | name | disco | audio | link | optionshow

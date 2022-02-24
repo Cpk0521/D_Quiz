@@ -127,6 +127,19 @@
             "name": "僕らが愚かだなんて誰が言った",
             "cover": [
                 {
+                    "file": "12_bokuraga_jk_shokai.jpg"
+                },
+                {
+                    "file": "12_bokuraga_jk_normal.jpg"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "6th Single",
+            "name": "恋は世界定理と共に",
+            "cover": [
+                {
                     "file": "np_cd.png"
                 }
             ]
