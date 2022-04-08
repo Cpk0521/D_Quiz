@@ -837,6 +837,18 @@
             "audio": "o4Btbt4oID0.mp3",
             "link": [],
             "optshow": "true"
+        },
+        {
+            "id": 37,
+            "name": "恋は世界定理と共に",
+            "discos": [
+                {
+                    "disco": 11
+                }
+            ],
+            "audio": "TE70qKo1Qys.mp3",
+            "link": [],
+            "optshow": "true"
         }
     ]
 }
