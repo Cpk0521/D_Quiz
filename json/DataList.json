@@ -840,6 +840,18 @@
         },
         {
             "id": 38,
+            "name": "パンケーキいいな",
+            "discos": [
+                {
+                    "disco": 10
+                }
+            ],
+            "audio": "H6waIJAwLq4.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 39,
             "name": "恋は世界定理と共に",
             "discos": [
                 {
