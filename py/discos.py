@@ -58,6 +58,7 @@ audiolist = [
     [37, '僕らが愚かだなんて誰が言った', [10], 'o4Btbt4oID0.mp3', [], 'true'],
     [38, 'パンケーキいいな', [10], 'H6waIJAwLq4.mp3', [], 'true'],
     [39, '恋は世界定理と共に', [11], 'TE70qKo1Qys.mp3', [], 'true'],
+    [40, 'ガガピーガガ', [11], 'd2znnO771OA.mp3', [], 'true'],
 ]
 
 jsondata = {'discolist':[], 'Songs':[]}

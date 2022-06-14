@@ -861,6 +861,18 @@
             "audio": "TE70qKo1Qys.mp3",
             "link": [],
             "optshow": "true"
+        },
+        {
+            "id": 40,
+            "name": "ガガピーガガ",
+            "discos": [
+                {
+                    "disco": 11
+                }
+            ],
+            "audio": "d2znnO771OA.mp3",
+            "link": [],
+            "optshow": "true"
         }
     ]
 }
