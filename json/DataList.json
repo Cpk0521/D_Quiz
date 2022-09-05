@@ -146,6 +146,19 @@
                     "file": "13_koiha-sekaiteirito-tomoni_jk_normal.jpg"
                 }
             ]
+        },
+        {
+            "id": 12,
+            "title": "7th Single",
+            "name": "デネブとスピカ",
+            "cover": [
+                {
+                    "file": "deneb_jk.jpg"
+                },
+                {
+                    "file": "deneb_jk_shokai.jpg"
+                }
+            ]
         }
     ],
     "Songs": [
@@ -871,6 +884,30 @@
                 }
             ],
             "audio": "d2znnO771OA.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 41,
+            "name": "デネブとスピカ",
+            "discos": [
+                {
+                    "disco": 12
+                }
+            ],
+            "audio": "gdyuWPh17c.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 42,
+            "name": "シャーベットマーメイド",
+            "discos": [
+                {
+                    "disco": 12
+                }
+            ],
+            "audio": "7CYuP5GY--8.mp3",
             "link": [],
             "optshow": "true"
         }

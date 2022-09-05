@@ -15,6 +15,7 @@ discolist = [
     [9, 'きゃにめ＆配信限定クリスマスシングル', 'はっちゃけダイアローグ＋クリスマス！', ['xmas_jk.jpg']],
     [10, '5th Single', '僕らが愚かだなんて誰が言った', ['12_bokuraga_jk_shokai.jpg','12_bokuraga_jk_normal.jpg']],
     [11, '6th Single', '恋は世界定理と共に', ['13_koiha-sekaiteirito-tomoni_jk_shokai.jpg', '13_koiha-sekaiteirito-tomoni_jk_normal.jpg']],
+    [12, '7th Single', 'デネブとスピカ', ['deneb_jk.jpg', 'deneb_jk_shokai.jpg']],
 ]
 
 #   id | name | disco | audio | link | optionshow
@@ -59,6 +60,8 @@ audiolist = [
     [38, 'パンケーキいいな', [10], 'H6waIJAwLq4.mp3', [], 'true'],
     [39, '恋は世界定理と共に', [11], 'TE70qKo1Qys.mp3', [], 'true'],
     [40, 'ガガピーガガ', [11], 'd2znnO771OA.mp3', [], 'true'],
+    [41, 'デネブとスピカ', [12], 'gdyuWPh17c.mp3', [], 'true'],
+    [42, 'シャーベットマーメイド', [12], '7CYuP5GY--8.mp3', [], 'true'],
 ]
 
 jsondata = {'discolist':[], 'Songs':[]}
