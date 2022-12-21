@@ -159,6 +159,29 @@
                     "file": "deneb_jk_shokai.jpg"
                 }
             ]
+        },
+        {
+            "id": 13,
+            "title": "配信限定シングル",
+            "name": "1000万回ハグなんだ",
+            "cover": [
+                {
+                    "file": "1000mankaihug_jk.jpg"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "title": "8th Single",
+            "name": "かすかでたしか",
+            "cover": [
+                {
+                    "file": "kasukade-tashika_jk.jpg"
+                },
+                {
+                    "file": "kasukade-tashika_jk_shokai.jpg"
+                }
+            ]
         }
     ],
     "Songs": [
@@ -908,6 +931,18 @@
                 }
             ],
             "audio": "7CYuP5GY--8.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 43,
+            "name": "1000万回ハグなんだ",
+            "discos": [
+                {
+                    "disco": 13
+                }
+            ],
+            "audio": "Ogt564G1Abw.mp3",
             "link": [],
             "optshow": "true"
         }
