@@ -945,6 +945,18 @@
             "audio": "Ogt564G1Abw.mp3",
             "link": [],
             "optshow": "true"
+        },
+        {
+            "id": 44,
+            "name": "かすかでたしか",
+            "discos": [
+                {
+                    "disco": 14
+                }
+            ],
+            "audio": "szvxXuj9JVY.mp3",
+            "link": [],
+            "optshow": "true"
         }
     ]
 }

@@ -64,7 +64,8 @@ audiolist = [
     [40, 'ガガピーガガ', [11], 'd2znnO771OA.mp3', [], 'true'],
     [41, 'デネブとスピカ', [12], 'gdyuWPh17c.mp3', [], 'true'],
     [42, 'シャーベットマーメイド', [12], '7CYuP5GY--8.mp3', [], 'true'],
-    [43, '1000万回ハグなんだ', [13], 'Ogt564G1Abw.mp3', [], 'true']
+    [43, '1000万回ハグなんだ', [13], 'Ogt564G1Abw.mp3', [], 'true'],
+    [44, 'かすかでたしか', [14], 'szvxXuj9JVY.mp3', [], 'true'],
 ]
 
 jsondata = {'discolist':[], 'Songs':[]}
@@ -83,5 +84,5 @@ for song in audiolist:
         songjson['link'].append({'id':no})
     jsondata['Songs'].append(songjson)
 
-with open('DataList.json', 'w', encoding='utf-8') as outfile:
+with open('../json/DataList.json', 'w', encoding='utf-8') as outfile:
     json.dump(jsondata, outfile, indent=4, ensure_ascii=False)
