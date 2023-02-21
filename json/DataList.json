@@ -172,6 +172,22 @@
         },
         {
             "id": 14,
+            "title": "2nd Album",
+            "name": "DIALOGUE＋2",
+            "cover": [
+                {
+                    "file": "dialogue+2_jk_normal.jpg"
+                },
+                {
+                    "file": "dialogue+2_jk_syokai.jpg"
+                },
+                {
+                    "file": "dialogue+2_jk_canime.jpg"
+                }
+            ]
+        },
+        {
+            "id": 15,
             "title": "8th Single",
             "name": "かすかでたしか",
             "cover": [
@@ -868,9 +884,12 @@
             "discos": [
                 {
                     "disco": 10
+                },
+                {
+                    "disco": 14
                 }
             ],
-            "audio": "o4Btbt4oID0.mp3",
+            "audio": "xIzBdq1CcH0.mp3",
             "link": [],
             "optshow": "true"
         },
@@ -892,9 +911,12 @@
             "discos": [
                 {
                     "disco": 11
+                },
+                {
+                    "disco": 14
                 }
             ],
-            "audio": "TE70qKo1Qys.mp3",
+            "audio": "G3OU2lQU-A.mp3",
             "link": [],
             "optshow": "true"
         },
@@ -916,6 +938,9 @@
             "discos": [
                 {
                     "disco": 12
+                },
+                {
+                    "disco": 14
                 }
             ],
             "audio": "gdyuWPh17c.mp3",
@@ -940,18 +965,117 @@
             "discos": [
                 {
                     "disco": 13
+                },
+                {
+                    "disco": 14
                 }
             ],
-            "audio": "Ogt564G1Abw.mp3",
+            "audio": "qSiJdCeUojE.mp3",
             "link": [],
             "optshow": "true"
         },
         {
             "id": 44,
-            "name": "かすかでたしか",
+            "name": "D＋ has come",
             "discos": [
                 {
                     "disco": 14
+                }
+            ],
+            "audio": "kXWVRE1zJuI.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 45,
+            "name": "絶景絶好スーパーデイ!!",
+            "discos": [
+                {
+                    "disco": 14
+                }
+            ],
+            "audio": "QJxYVapmcjQ.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 46,
+            "name": "めっちゃオンリーユー",
+            "discos": [
+                {
+                    "disco": 14
+                }
+            ],
+            "audio": "wGtFv4HZpFs.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 47,
+            "name": "やばきゅん♡シューベルト",
+            "discos": [
+                {
+                    "disco": 14
+                }
+            ],
+            "audio": "1H5OWe3iS4E.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 48,
+            "name": "MAHOROBA-Deli",
+            "discos": [
+                {
+                    "disco": 14
+                }
+            ],
+            "audio": "EN3UYPHWiR4.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 49,
+            "name": "うしみつあっパレイド",
+            "discos": [
+                {
+                    "disco": 14
+                }
+            ],
+            "audio": "Thp5zjDO8wQ.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 50,
+            "name": "夕空航路",
+            "discos": [
+                {
+                    "disco": 14
+                }
+            ],
+            "audio": "kXF0xWQox64.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 51,
+            "name": "ぼくらのユニバース",
+            "discos": [
+                {
+                    "disco": 14
+                }
+            ],
+            "audio": "KVvmbW3BX-M.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 52,
+            "name": "かすかでたしか",
+            "discos": [
+                {
+                    "disco": 15
                 }
             ],
             "audio": "szvxXuj9JVY.mp3",

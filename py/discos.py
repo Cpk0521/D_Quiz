@@ -17,7 +17,8 @@ discolist = [
     [11, '6th Single', '恋は世界定理と共に', ['13_koiha-sekaiteirito-tomoni_jk_shokai.jpg', '13_koiha-sekaiteirito-tomoni_jk_normal.jpg']],
     [12, '7th Single', 'デネブとスピカ', ['deneb_jk.jpg', 'deneb_jk_shokai.jpg']],
     [13, '配信限定シングル', '1000万回ハグなんだ', ['1000mankaihug_jk.jpg']],
-    [14, '8th Single', 'かすかでたしか', ['kasukade-tashika_jk.jpg', 'kasukade-tashika_jk_shokai.jpg']],
+    [14, '2nd Album', 'DIALOGUE＋2', ['dialogue+2_jk_normal.jpg', 'dialogue+2_jk_syokai.jpg', 'dialogue+2_jk_canime.jpg']],
+    [15, '8th Single', 'かすかでたしか', ['kasukade-tashika_jk.jpg', 'kasukade-tashika_jk_shokai.jpg']],
 ]
 
 #   id | name | disco | audio | link | optionshow
@@ -58,15 +59,24 @@ audiolist = [
     [34, 'はっちゃけダイアローグ＋クリスマス！（宮原颯希ver.）', [9], 't0nsWs_5HmE.mp3', [26, 29, 30, 31, 32, 33, 35, 36], 'false'],
     [35, 'はっちゃけダイアローグ＋クリスマス！（飯塚麻結ver.）', [9], 'vf79hgyAP2g.mp3', [26, 29, 30, 31, 32, 33, 34, 36], 'false'],
     [36, 'はっちゃけダイアローグ＋クリスマス！（村上まなつver.）', [9], '8HAqIJFbiwg.mp3', [26, 29, 30, 31, 32, 33, 34, 35], 'false'],
-    [37, '僕らが愚かだなんて誰が言った', [10], 'o4Btbt4oID0.mp3', [], 'true'],
+    [37, '僕らが愚かだなんて誰が言った', [10, 14], 'xIzBdq1CcH0.mp3', [], 'true'],
     [38, 'パンケーキいいな', [10], 'H6waIJAwLq4.mp3', [], 'true'],
-    [39, '恋は世界定理と共に', [11], 'TE70qKo1Qys.mp3', [], 'true'],
+    [39, '恋は世界定理と共に', [11, 14], 'G3OU2lQU-A.mp3', [], 'true'],
     [40, 'ガガピーガガ', [11], 'd2znnO771OA.mp3', [], 'true'],
-    [41, 'デネブとスピカ', [12], 'gdyuWPh17c.mp3', [], 'true'],
+    [41, 'デネブとスピカ', [12, 14], 'gdyuWPh17c.mp3', [], 'true'],
     [42, 'シャーベットマーメイド', [12], '7CYuP5GY--8.mp3', [], 'true'],
-    [43, '1000万回ハグなんだ', [13], 'Ogt564G1Abw.mp3', [], 'true'],
-    [44, 'かすかでたしか', [14], 'szvxXuj9JVY.mp3', [], 'true'],
+    [43, '1000万回ハグなんだ', [13, 14], 'qSiJdCeUojE.mp3', [], 'true'],
+    [44, 'D＋ has come', [14], 'kXWVRE1zJuI.mp3', [], 'true'],
+    [45, '絶景絶好スーパーデイ!!', [14], 'QJxYVapmcjQ.mp3', [], 'true'],
+    [46, 'めっちゃオンリーユー', [14], 'wGtFv4HZpFs.mp3', [], 'true'],
+    [47, 'やばきゅん♡シューベルト', [14], '1H5OWe3iS4E.mp3', [], 'true'],
+    [48, 'MAHOROBA-Deli', [14], 'EN3UYPHWiR4.mp3', [], 'true'],
+    [49, 'うしみつあっパレイド', [14], 'Thp5zjDO8wQ.mp3', [], 'true'],
+    [50, '夕空航路', [14], 'kXF0xWQox64.mp3', [], 'true'],
+    [51, 'ぼくらのユニバース', [14], 'KVvmbW3BX-M.mp3', [], 'true'],
+    [52, 'かすかでたしか', [15], 'szvxXuj9JVY.mp3', [], 'true'],
 ]
+
 
 jsondata = {'discolist':[], 'Songs':[]}
 
