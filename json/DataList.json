@@ -198,6 +198,19 @@
                     "file": "kasukade-tashika_jk_shokai.jpg"
                 }
             ]
+        },
+        {
+            "id": 16,
+            "title": "9th Single",
+            "name": "にゃんぼりーdeモッフィー!!",
+            "cover": [
+                {
+                    "file": ""
+                },
+                {
+                    "file": ""
+                }
+            ]
         }
     ],
     "Songs": [
@@ -1079,6 +1092,18 @@
                 }
             ],
             "audio": "szvxXuj9JVY.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 53,
+            "name": "まるっとジブン時代",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "audio": "rLVNx96UcGU.mp3",
             "link": [],
             "optshow": "true"
         }
