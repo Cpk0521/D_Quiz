@@ -1106,6 +1106,18 @@
             "audio": "rLVNx96UcGU.mp3",
             "link": [],
             "optshow": "true"
+        },
+        {
+            "id": 54,
+            "name": "にゃんぼりーdeモッフィー!!",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "audio": "ZeLKnlKzu8g.mp3",
+            "link": [],
+            "optshow": "true"
         }
     ]
 }
