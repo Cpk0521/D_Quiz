@@ -1118,6 +1118,18 @@
             "audio": "ZeLKnlKzu8g.mp3",
             "link": [],
             "optshow": "true"
+        },
+        {
+            "id": 55,
+            "name": "来世なんて待ってらんない",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "audio": "cm5J3xFZSqs.mp3",
+            "link": [],
+            "optshow": "true"
         }
     ]
 }
