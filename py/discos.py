@@ -21,6 +21,7 @@ discolist = [
     [14, '2nd Album', 'DIALOGUE＋2', ['dialogue+2_jk_normal.jpg', 'dialogue+2_jk_syokai.jpg', 'dialogue+2_jk_canime.jpg']],
     [15, '8th Single', 'かすかでたしか', ['kasukade-tashika_jk.jpg', 'kasukade-tashika_jk_shokai.jpg']],
     [16, '9th Single', 'にゃんぼりーdeモッフィー!!', ['nyanbory_jk_normal.jpg', 'nyanbory_jk_shokai.jpg']],
+    [17, 'きゃにめ＆配信限定シングル', 'フレンドファンファーレ', ['friendfanfare_jk.jpg']],
 ]
 
 #   id | name | disco | audio | link | optionshow
