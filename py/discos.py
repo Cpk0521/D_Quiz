@@ -84,7 +84,7 @@ audiolist = [
     [55, '来世なんて待ってらんない', [16], 'cm5J3xFZSqs.mp3', [], 'true'],
     [56, 'フレンドファンファーレ', [17], 'w7U6Oly5_-s.mp3', [], 'true'],
     [57, 'はじめてのかくめい！2023', [17], '3xIcQnqAGJk.mp3', [1, 25], 'false'],
-    [58, '人生イージー？2023', [17], 'ObvC7QEuqXY.mp3', [11], 'true'],
+    [58, '人生イージー？2023', [17], 'ObvC7QEuqXY.mp3', [11], 'false'],
 ]
 
 jsondata = {'discolist':[], 'Songs':[]}
