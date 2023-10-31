@@ -22,11 +22,12 @@ discolist = [
     [15, '8th Single', 'かすかでたしか', ['kasukade-tashika_jk.jpg', 'kasukade-tashika_jk_shokai.jpg']],
     [16, '9th Single', 'にゃんぼりーdeモッフィー!!', ['nyanbory_jk_normal.jpg', 'nyanbory_jk_shokai.jpg']],
     [17, 'きゃにめ＆配信限定シングル', 'フレンドファンファーレ', ['friendfanfare_jk.jpg']],
+    [18, '10th Single', 'イージー？ハード？しかして進めっ！', ['np_cd.png']],
 ]
 
 #   id | name | disco | audio | link | optionshow
 audiolist = [
-    [1, 'はじめてのかくめい！', [1] , 'lcQiuaHbswg.mp3', [25], 'true'],
+    [1, 'はじめてのかくめい！', [1] , 'lcQiuaHbswg.mp3', [25, 57], 'true'],
     [2, 'ダイアローグ＋インビテーション！', [1] , 'hkJMM_FXmlM.mp3', [], 'true'],
     [3, '大冒険をよろしく', [2] , 'LAyZudsnN0k.mp3', [], 'true'],
     [4, '好きだよ、好き。', [2] , 'J4ZW1q7ASLo.mp3', [], 'true'],
@@ -36,7 +37,7 @@ audiolist = [
     [8, 'ぼくらは素敵だ', [2] , 'RuLHw5yQcaM.mp3', [], 'true'],
     [9, 'あたりまえだから', [3], 'e3cFgLkNeX8.mp3', [], 'true'],
     [10, '夏の花火と君と青', [4, 8], '6xGC9Wj1tgQ.mp3', [], 'true'],
-    [11, '人生イージー？', [5, 8], 'ytFe0hVqI.mp3', [], 'true'],
+    [11, '人生イージー？', [5, 8], 'ytFe0hVqI.mp3', [58], 'true'],
     [12, '走れ', [5], 'tYb7VFG6MIg.mp3', [], 'true'],
     [13, 'あやふわアスタリスク', [6, 8], 'bgljf35jvUA.mp3', [], 'true'],
     [14, '花咲く僕らのアンサーを', [6], '1M-Qwx3glSY.mp3', [], 'true'],
@@ -50,7 +51,7 @@ audiolist = [
     [22, 'アイガッテ♡ランテ', [8], '6EPdwJIgQ.mp3', [], 'true'],
     [23, '20xxMUEの光', [8], 'L23gOJFMnK8.mp3', [], 'true'],
     [24, '透明できれい', [8], 'G4IeL2zq-jk.mp3', [], 'true'],
-    [25, 'はじめてのかくめい！2021', [8], 'bEsSAAcKQBA.mp3', [1], 'true'],
+    [25, 'はじめてのかくめい！2021', [8], 'bEsSAAcKQBA.mp3', [1, 57], 'false'],
     [26, 'はっちゃけダイアローグ＋クリスマス！', [9], 'EPBCxGeLybM.mp3', [29, 30, 31, 32, 33, 34, 35, 36], 'true'],
     [27, 'DIALOGUE＋は上々だ', [9], 'JWt8zVI3lpA.mp3', [], 'true'],
     [28, 'DIALOGUE＋はまた立ち上がる', [9], '2lFMSMlCRT4.mp3', [], 'true'],
@@ -81,6 +82,9 @@ audiolist = [
     [53, 'まるっとジブン時代', [15], 'rLVNx96UcGU.mp3', [], 'true'],
     [54, 'にゃんぼりーdeモッフィー!!', [16], 'ZeLKnlKzu8g.mp3', [], 'true'],
     [55, '来世なんて待ってらんない', [16], 'cm5J3xFZSqs.mp3', [], 'true'],
+    [56, 'フレンドファンファーレ', [17], 'w7U6Oly5_-s.mp3', [], 'true'],
+    [57, 'はじめてのかくめい！2023', [17], '3xIcQnqAGJk.mp3', [1, 25], 'false'],
+    [58, '人生イージー？2023', [17], 'ObvC7QEuqXY.mp3', [11], 'true'],
 ]
 
 jsondata = {'discolist':[], 'Songs':[]}

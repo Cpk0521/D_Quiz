@@ -211,6 +211,26 @@
                     "file": "nyanbory_jk_shokai.jpg"
                 }
             ]
+        },
+        {
+            "id": 17,
+            "title": "きゃにめ＆配信限定シングル",
+            "name": "フレンドファンファーレ",
+            "cover": [
+                {
+                    "file": "friendfanfare_jk.jpg"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "title": "10th Single",
+            "name": "イージー？ハード？しかして進めっ！",
+            "cover": [
+                {
+                    "file": "np_cd.png"
+                }
+            ]
         }
     ],
     "Songs": [
@@ -226,6 +246,9 @@
             "link": [
                 {
                     "id": 25
+                },
+                {
+                    "id": 57
                 }
             ],
             "optshow": "true"
@@ -353,7 +376,11 @@
                 }
             ],
             "audio": "ytFe0hVqI.mp3",
-            "link": [],
+            "link": [
+                {
+                    "id": 58
+                }
+            ],
             "optshow": "true"
         },
         {
@@ -530,9 +557,12 @@
             "link": [
                 {
                     "id": 1
+                },
+                {
+                    "id": 57
                 }
             ],
-            "optshow": "true"
+            "optshow": "false"
         },
         {
             "id": 26,
@@ -1129,6 +1159,53 @@
             ],
             "audio": "cm5J3xFZSqs.mp3",
             "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 56,
+            "name": "フレンドファンファーレ",
+            "discos": [
+                {
+                    "disco": 17
+                }
+            ],
+            "audio": "w7U6Oly5_-s.mp3",
+            "link": [],
+            "optshow": "true"
+        },
+        {
+            "id": 57,
+            "name": "はじめてのかくめい！2023",
+            "discos": [
+                {
+                    "disco": 17
+                }
+            ],
+            "audio": "3xIcQnqAGJk.mp3",
+            "link": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 25
+                }
+            ],
+            "optshow": "false"
+        },
+        {
+            "id": 58,
+            "name": "人生イージー？2023",
+            "discos": [
+                {
+                    "disco": 17
+                }
+            ],
+            "audio": "ObvC7QEuqXY.mp3",
+            "link": [
+                {
+                    "id": 11
+                }
+            ],
             "optshow": "true"
         }
     ]
