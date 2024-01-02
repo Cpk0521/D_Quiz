@@ -228,7 +228,7 @@
             "name": "イージー？ハード？しかして進めっ！",
             "cover": [
                 {
-                    "file": "np_cd.png"
+                    "file": "easy-hard_jk_normal.jpg"
                 }
             ]
         }
@@ -1207,6 +1207,18 @@
                 }
             ],
             "optshow": "false"
+        },
+        {
+            "id": 59,
+            "name": "イージー？ハード？しかして進めっ！",
+            "discos": [
+                {
+                    "disco": 18
+                }
+            ],
+            "audio": "xJKsSMxFIrY.mp3",
+            "link": [],
+            "optshow": "true"
         }
     ]
 }

@@ -22,7 +22,7 @@ discolist = [
     [15, '8th Single', 'かすかでたしか', ['kasukade-tashika_jk.jpg', 'kasukade-tashika_jk_shokai.jpg']],
     [16, '9th Single', 'にゃんぼりーdeモッフィー!!', ['nyanbory_jk_normal.jpg', 'nyanbory_jk_shokai.jpg']],
     [17, 'きゃにめ＆配信限定シングル', 'フレンドファンファーレ', ['friendfanfare_jk.jpg']],
-    [18, '10th Single', 'イージー？ハード？しかして進めっ！', ['np_cd.png']],
+    [18, '10th Single', 'イージー？ハード？しかして進めっ！', ['easy-hard_jk_normal.jpg']],
 ]
 
 #   id | name | disco | audio | link | optionshow
@@ -85,6 +85,7 @@ audiolist = [
     [56, 'フレンドファンファーレ', [17], 'w7U6Oly5_-s.mp3', [], 'true'],
     [57, 'はじめてのかくめい！2023', [17], '3xIcQnqAGJk.mp3', [1, 25], 'false'],
     [58, '人生イージー？2023', [17], 'ObvC7QEuqXY.mp3', [11], 'false'],
+    [59, 'イージー？ハード？しかして進めっ！', [18], 'xJKsSMxFIrY.mp3', [], 'true'],
 ]
 
 jsondata = {'discolist':[], 'Songs':[]}
