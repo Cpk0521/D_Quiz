@@ -1219,6 +1219,18 @@
             "audio": "xJKsSMxFIrY.mp3",
             "link": [],
             "optshow": "true"
+        },
+        {
+            "id": 60,
+            "name": "誰かじゃないから",
+            "discos": [
+                {
+                    "disco": 18
+                }
+            ],
+            "audio": "7y9JQpuH-uM.mp3",
+            "link": [],
+            "optshow": "true"
         }
     ]
 }
