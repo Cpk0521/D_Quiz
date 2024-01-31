@@ -23,6 +23,7 @@ discolist = [
     [16, '9th Single', 'にゃんぼりーdeモッフィー!!', ['nyanbory_jk_normal.jpg', 'nyanbory_jk_shokai.jpg']],
     [17, 'きゃにめ＆配信限定シングル', 'フレンドファンファーレ', ['friendfanfare_jk.jpg']],
     [18, '10th Single', 'イージー？ハード？しかして進めっ！', ['easy-hard_jk_normal.jpg']],
+    [19, '11th Single', 'ユートピア学概論', ['np_cd.png.jpg']],
 ]
 
 #   id | name | disco | audio | link | optionshow

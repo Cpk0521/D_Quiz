@@ -231,6 +231,16 @@
                     "file": "easy-hard_jk_normal.jpg"
                 }
             ]
+        },
+        {
+            "id": 19,
+            "title": "11th Single",
+            "name": "ユートピア学概論",
+            "cover": [
+                {
+                    "file": "np_cd.png.jpg"
+                }
+            ]
         }
     ],
     "Songs": [
